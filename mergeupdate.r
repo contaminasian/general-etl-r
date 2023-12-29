@@ -1,6 +1,8 @@
+#non destructve update of na vals in df1
+
 df1 <- data.frame(col1 = c("A", "B", "C", "D","E"),
                   col2 = c(1, 2, 3, 4,5),
-                  col3 = c(10, NA, 30, 402,5))
+                  col3 = c(10, NA, 30, 40,NA))
 
 df2 <- data.frame(col1 = c("B", "D"),
                   col2 = c(2, 4),
